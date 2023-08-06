@@ -1,6 +1,6 @@
 package chat.llamas.cardgame
 
-enum class CardTypes {
+enum class CardType {
     Unit,
     Enhancement,
     Stationary,
