@@ -8,10 +8,16 @@ enum class CardType {
     Tactical,
     Action,
     Region,
-    Weather
+    Border,
+    Weather,
+    Tap
 
 };
-
+enum class TurnPhase {
+    Initial,
+    Tactical,
+    Final
+};
 enum class UnitType {
     Land,
     Air,
