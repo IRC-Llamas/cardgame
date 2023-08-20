@@ -1,6 +1,7 @@
 package chat.llamas.cardgame.logic;
 
 import chat.llamas.cardgame.TurnPhase;
+import chat.llamas.cardgame.data.Game;
 import chat.llamas.cardgame.data.Player;
 
 public class TapHandlingTurnEventListener implements TurnEventListener {

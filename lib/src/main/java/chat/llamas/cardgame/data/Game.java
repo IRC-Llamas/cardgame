@@ -1,12 +1,14 @@
 package chat.llamas.cardgame.data;
 
+import chat.llamas.cardgame.cards.CardTemplate;
+
 public class Game {
 
-    public boolean removeTapForCard(Player caller, Card card) {
+    public boolean removeTapForCard(Player caller, CardTemplate card) {
         return false;
     }
 
-    private boolean isValidRemoveTap(Card card) {
+    private boolean isValidRemoveTap(CardTemplate card) {
         return false;
     }
 }
